@@ -1,0 +1,88 @@
+New Member Registration API
+Request Body:
+
+{
+    "Name" : "Raama",
+    "Age":29,
+    "PhoneNumber":"23455",
+    "Pincode":581110,
+    "AadharNumber": 7586872719,
+    "LoginPassword":"pra"
+}
+
+
+{
+			
+    "Name" : "Morgan",
+    "Age":75,
+    "PhoneNumber":"6578376580",
+    "Pincode":546008,
+    "AadharNumber": 123456788765,
+    "LoginPassword":"raajua"
+}
+------------------------------------------------------
+{
+			"Date":"01-06-2021",
+            "Vaccine Slot":"10:00 AM",
+            "Dose":"FirstDose",
+            "AadharNumber":123456788765
+			"PhoneNumber":"234623455"
+	
+}
+
+----------------------------------------------------------
+
+EndPoint: http://127.0.0.1:5000/user/login
+HttpMethod: POST
+Request Body
+{
+	
+	"PhoneNumber":"6578376580",
+	"LoginPassword": "morgan"
+}
+-----------------------------------------------------------
+
+{
+			
+    "Name" : "Stanley",
+    "Age":70,
+    "PhoneNumber":"6578376580",
+    "Pincode":581118,
+    "AadharNumber": 1234567809099,
+    "LoginPassword":"Stanle$%"
+}
+
+
+----------------------
+
+{
+			
+    "Name" : "Anu",
+    "Age":65,
+    "PhoneNumber":"65783755680",
+    "Pincode":581187,
+    "AadharNumber": 1234565556889,
+    "LoginPassword":"Stan$%"
+}
+
+------------------------
+
+{
+			"Date":"01-06-2021",
+            "Vaccine Slot":"10:00 AM",
+            "Dose":"FirstDose",
+            "AadharNumber":1234565556889
+		
+	
+}
+-----------------------
+
+{
+		"SlotUpdatingDateTime":"31-05-2021 06:00 AM",
+        "NewDateVaccineSlot":"01-06-2021",
+        "NewVaccine Slot":"4:00 PM",
+         "AadharNumber":1234565556889
+	
+}
+
+
